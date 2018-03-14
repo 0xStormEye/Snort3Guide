@@ -11,7 +11,7 @@ The pcre keyword allows rules to be written using perl compatible regular expres
 ### 3.5.26.1 Format
 
 ```
-  pcre:[!]"(/<regex>/|m<delim><regex><delim>)[ismxAEGRUBPHMCOIDKYS]";
+  pcre:[!]"(/<regex>/|m<delim><regex><delim>)[ismxAEGRO]";
 ```
 
 The post-re modifiers set compile time flags for the regular expression. See tables , , and  for descriptions of each modifier.
